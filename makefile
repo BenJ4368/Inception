@@ -1,6 +1,6 @@
 all:
 	@echo "Composing Inception..."
-	@cd srcs && sudo docker-compose up --build -d
+	@cd srcs && sudo docker-compose up --build
 
 down:
 	@echo "Shutting down docker-composed containers..."
